@@ -38,7 +38,7 @@ class UnidadDeMedida {
   // Esto permite que el nombre de la unidad se muestre directamente en los Dropdowns
   @override
   String toString() => nombre;
-}
+} 
 
 // Lista de unidades de longitud disponibles en el conversor
 final List<UnidadDeMedida> unidadesLongitud = [
@@ -54,8 +54,8 @@ final List<UnidadDeMedida> unidadesLongitud = [
   ),
   UnidadDeMedida(
     nombre: 'Kilómetros',
-    convertirABase: (v) => v * 1000,
-    convertirDesdeBase: (v) => v / 1000,
+    convertirABase: (v) => v * 1000,    // Contierte a metros
+    convertirDesdeBase: (v) => v / 1000,//Convierte desde kilometros
   ),
 ];
 

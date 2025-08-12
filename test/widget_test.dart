@@ -13,7 +13,7 @@ import 'package:unit_converter_app/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const UnitConverterApp());
+    await tester.pumpWidget(const TemperatureApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

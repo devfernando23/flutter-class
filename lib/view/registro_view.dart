@@ -77,6 +77,17 @@ class _RegistroPageState extends State<RegistroPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                // Logo
+                Center(
+                  child:  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.asset(
+                      'assets/images/logo.png',
+                      height: 120,
+                    ),
+                  )
+                ),
+
                 const Text(
                   "Ingrese sus datos:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),

@@ -100,6 +100,7 @@ class _RegistroPageState extends State<RegistroPage> {
                   decoration: const InputDecoration(
                     labelText: "Nombres",
                     border: OutlineInputBorder(),
+                    prefixIcon: Icon(Icons.person)
                   ),
                   validator: (value) => User.validateNombres(value),
                 ),

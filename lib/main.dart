@@ -9,7 +9,7 @@ class DiarioApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mi Diario Saludable',
+      title: 'Mi Diario',
       theme: ThemeData(primarySwatch: Colors.green),
       home: const RegistroView(),
     );

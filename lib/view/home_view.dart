@@ -3,6 +3,7 @@ import 'users_view.dart';
 import 'comments_view.dart';
 import 'products_view.dart';
 import 'login_view.dart';
+import 'compass_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -118,6 +119,24 @@ class _HomeViewState extends State<HomeView> {
                           onPressed: () => Navigator.push(
                             context,
                             MaterialPageRoute(builder: (_) => const ProductsView()),
+                          ),
+                        ),
+                        const SizedBox(height: 16),
+                        ElevatedButton.icon(
+                          icon: const Icon(Icons.navigation),
+                          label: const Text("Brujula (Sensor)"),
+                          style: ElevatedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(vertical: 18),
+                            backgroundColor: Colors.white,
+                            foregroundColor: Color(0xFFBA1B38),
+                            textStyle: const TextStyle(fontWeight: FontWeight.bold),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30),
+                            ),
+                          ),
+                          onPressed: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => const CompassView()),
                           ),
                         ),
                       ],

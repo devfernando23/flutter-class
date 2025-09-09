@@ -136,8 +136,8 @@ class _UsersViewState extends State<UsersView> {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xFFBA1B38), Color(0xFF2A1939)],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
           ),
         ),
         child: SafeArea(

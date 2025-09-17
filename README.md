@@ -1,8 +1,8 @@
 # Repositorio de Desarrollo de Aplicaciones Móviles
 
-[cite_start]Este repositorio contiene el código del curso de **Desarrollo de Aplicaciones Móviles** del Instituto Continental[cite: 3]. [cite_start]Es una unidad didáctica de carácter teórico-práctico que forma parte de la carrera de **Desarrollo de sistemas de información**[cite: 6, 4].
+Este repositorio contiene el código del curso de **Desarrollo de Aplicaciones Móviles** del Instituto Continental. Es una unidad didáctica de carácter teórico-práctico que forma parte de la carrera de **Desarrollo de sistemas de información**.
 
-[cite_start]El contenido del curso está organizado en tres componentes principales: **Plataformas de desarrollo de aplicaciones móviles**, **Desarrollo aplicaciones móviles**, y **Desarrollo aplicaciones móviles, sensores y pruebas unitarias**[cite: 9, 10, 11].
+El contenido del curso está organizado en tres componentes principales: **Plataformas de desarrollo de aplicaciones móviles**, **Desarrollo aplicaciones móviles**, y **Desarrollo aplicaciones móviles, sensores y pruebas unitarias**.
 
 ---
 
@@ -22,7 +22,7 @@ Cada rama del repositorio corresponde a un tema específico del curso, lo que te
 
 1.  **Clonar el repositorio**:
     ```sh
-    git clone [https://aws.amazon.com/es/what-is/repo/](https://aws.amazon.com/es/what-is/repo/)
+    git clone https://github.com/devfernando23/flutter-class.git
     ```
 
 2.  **Navegar a la rama de interés**:

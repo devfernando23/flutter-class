@@ -1,29 +1,31 @@
-Descripción del Repositorio
+# Repositorio de Desarrollo de Aplicaciones Móviles
 
-Este repositorio contiene el código del curso de Desarrollo de Aplicaciones Móviles del Instituto Continental. Su contenido está estructurado en tres componentes de la capacidad de la Unidad Didáctica: 
+[cite_start]Este repositorio contiene el código del curso de **Desarrollo de Aplicaciones Móviles** del Instituto Continental[cite: 3]. [cite_start]Es una unidad didáctica de carácter teórico-práctico que forma parte de la carrera de **Desarrollo de sistemas de información**[cite: 6, 4].
 
-Plataformas de desarrollo, Desarrollo de aplicaciones, y el uso de sensores y pruebas unitarias.
+[cite_start]El contenido del curso está organizado en tres componentes principales: **Plataformas de desarrollo de aplicaciones móviles**, **Desarrollo aplicaciones móviles**, y **Desarrollo aplicaciones móviles, sensores y pruebas unitarias**[cite: 9, 10, 11].
 
-Cada rama del repositorio corresponde a un tema específico del curso, lo que te permite navegar por los diferentes proyectos y ejemplos de código vistos en clase.
+---
 
-Estructura de las Ramas
-A continuación, se describe el propósito de cada rama del repositorio:
+### Estructura de las Ramas
 
-widgets-comunes: Esta rama se enfoca en el desarrollo de la interfaz de una aplicación móvil. Contiene ejemplos de código para construir la interfaz de usuario, utilizando los controles gráficos de las librerías para aplicaciones móviles.
+Cada rama del repositorio corresponde a un tema específico del curso, lo que te permite navegar por los diferentes proyectos y ejemplos de código.
 
-device-capabilities: En esta rama se explora y utiliza las capacidades del dispositivo para aplicaciones móviles. Aquí encontrarás código para aprovechar las características de hardware de los dispositivos.
+-   `widgets-comunes`: Se enfoca en el **desarrollo de la interfaz de una aplicación móvil**, utilizando controles gráficos de librerías para aplicaciones móviles.
+-   `device-capabilities`: Explora las **capacidades del dispositivo para aplicaciones móviles**, como el hardware y las características del entorno físico.
+-   `unique-code-fitness`: Esta rama contiene un proyecto de ejemplo que demuestra el **manejo de sensores de los dispositivos** para aplicaciones móviles. Busca solucionar un problema del entorno a través de la interacción con el medio físico.
+-   `security-apisCRUD`: Se centra en la implementación de **mecanismos de seguridad para las aplicaciones móviles** y en la integración con APIs para la manipulación de datos.
+-   `biometric-security`: Profundiza en los mecanismos de seguridad, específicamente en la implementación de la **seguridad biométrica**.
 
-unique-code-fitness: Esta rama contiene un proyecto de ejemplo que demuestra el manejo de sensores de los dispositivos para aplicaciones móviles. Busca solucionar un problema del entorno a través de la interacción con el medio físico.
+---
 
-security-apisCRUD: Esta rama se centra en la implementación de mecanismos de seguridad para las aplicaciones móviles. También incluye la integración de la capa del modelo con la nube para el acceso y manipulación de datos a través de APIs.
+### Cómo Usar el Repositorio
 
-biometric-security: Esta rama profundiza en los mecanismos de seguridad, específicamente en la implementación de la 
+1.  **Clonar el repositorio**:
+    ```sh
+    git clone [https://aws.amazon.com/es/what-is/repo/](https://aws.amazon.com/es/what-is/repo/)
+    ```
 
-seguridad biométrica, un subtema importante para proteger la información del usuario en las aplicaciones móviles.
-
-Cómo Usar el Repositorio
-Clonar el repositorio:
-git clone https://aws.amazon.com/es/what-is/repo/
-
-Navegar a la rama de interés:
-git checkout [nombre de la rama]
+2.  **Navegar a la rama de interés**:
+    ```sh
+    git checkout [nombre de la rama]
+    ```
